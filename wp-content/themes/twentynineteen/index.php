@@ -26,7 +26,7 @@ get_header();
 			// Load posts loop.
 			while ( have_posts() ) {
 				the_post();
-				get_template_part( 'template-parts/content/content' );
+				get_template_part( 'templates/content/content' );
 			}
 
 			// Previous/next page navigation.
@@ -35,7 +35,7 @@ get_header();
 		} else {
 
 			// If no content, include the "No posts found" template.
-			get_template_part( 'template-parts/content/content', 'none' );
+			get_template_part( 'templates/content/content', 'none' );
 
 		}
 		?>

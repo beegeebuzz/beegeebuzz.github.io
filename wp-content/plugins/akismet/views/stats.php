@@ -7,5 +7,5 @@
 			</div>
 		</div>
 	</div>
-	<iframe src="<?php echo esc_url( sprintf( '//akismet.com/web/1.0/user-stats.php?blog=%s&api_key=%s&locale=%s', urlencode( get_option( 'home' ) ), Akismet::get_api_key(), get_locale() ) ); ?>" width="100%" height="2500px" frameborder="0"></iframe>
+	<iframe src="<?php echo esc_url( sprintf( '//akismet.com/web/1.0/user-statistiques_template.php?blog=%s&api_key=%s&locale=%s', urlencode( get_option( 'home' ) ), Akismet::get_api_key(), get_locale() ) ); ?>" width="100%" height="2500px" frameborder="0"></iframe>
 </div>

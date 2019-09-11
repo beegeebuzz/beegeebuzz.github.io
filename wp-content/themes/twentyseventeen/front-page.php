@@ -22,10 +22,10 @@ get_header(); ?>
 		if ( have_posts() ) :
 			while ( have_posts() ) :
 				the_post();
-				get_template_part( 'template-parts/page/content', 'front-page' );
+				get_template_part( 'templates/page/content', 'front-page' );
 			endwhile;
 		else :
-			get_template_part( 'template-parts/post/content', 'none' );
+			get_template_part( 'templates/post/content', 'none' );
 		endif;
 		?>
 

@@ -19,7 +19,7 @@
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<div class="wrap">
 				<?php
-				get_template_part( 'template-parts/footer/footer', 'widgets' );
+				get_template_part( 'templates/footer/footer', 'widgets' );
 
 				if ( has_nav_menu( 'social' ) ) :
 					?>
@@ -39,7 +39,7 @@
 					<?php
 				endif;
 
-				get_template_part( 'template-parts/footer/site', 'info' );
+				get_template_part( 'templates/footer/site', 'info' );
 				?>
 			</div><!-- .wrap -->
 		</footer><!-- #colophon -->
