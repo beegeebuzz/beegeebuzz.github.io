@@ -2,6 +2,7 @@
 Projet Wordpress
 Contexte:
 * stage de formation web development
+
 Application web responsive permettant de :
 * matérialiser des observations naturalistes simples faîtes par des utilisateurs de type "grand publique"
 * rechercher des informations sur la faune et la flore en région centre
